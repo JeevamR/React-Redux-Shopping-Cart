@@ -2,3 +2,85 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0.5rem;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 1rem;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(109, 104, 109);
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-class {
+  background-color: grey;
+  padding: 1rem;
+  margin: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 280px;
+  box-shadow: 0 3px 10px 0 #aaa;
+  cursor: pointer;
+}
+
+.container {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: space-evenly;
+}
+
+.product-cover {
+  object-fit: cover;
+  height: 362px;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: 50px;
+  margin: 15px 0;
+  color: white;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  padding: 4px;
+  cursor: pointer;
+}
